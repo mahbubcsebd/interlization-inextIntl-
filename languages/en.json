@@ -2,10 +2,34 @@
     "Language": {
         "lang": "English"
     },
-    "Index": {
-        "title": "Hello world!"
+    "Logo": {
+        "title": "Mahbub"
     },
     "Header": {
-        "name": "This is the header"
+        "home": {
+            "id": 1,
+            "title": "home",
+            "href": "home"
+        },
+        "about": {
+            "id": 2,
+            "title": "about",
+            "href": "about"
+        },
+        "portfolio": {
+            "id": 3,
+            "title": "portfolio",
+            "href": "portfolio"
+        },
+        "blog": {
+            "id": 4,
+            "title": "blog",
+            "href": "blog"
+        },
+        "contact": {
+            "id": 5,
+            "title": "contact",
+            "href": "contact"
+        }
     }
 }

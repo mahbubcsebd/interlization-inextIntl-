@@ -17,7 +17,7 @@ export default function LocalSwitcher() {
 
   return (
     <div>
-        <button onClick={languageHandler}>{localActive === 'en' ? 'বাংলা' : 'English'}</button>
+        <button className="text-lg text-white font-semibold bg-primary-main px-8 py-4 border-1 border-primary-main rounded-lg" onClick={languageHandler}>{localActive === 'en' ? 'বাংলা' : 'English'}</button>
     </div>
   );
 }
