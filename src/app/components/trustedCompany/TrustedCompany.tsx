@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const TrustedCompany = () => {
     return (
-        <div className="trusted-section">
+        <div className="trusted-section pb-20">
             <div className="trusted-area">
                 <div className="container">
                     <p className="text-2xl text-[#a2a2a2] font-normal mb-8">

@@ -20,7 +20,7 @@ const Header = () => {
                                 {navLinks.map((navLink) => (
                                     <li key={navLink}>
                                         <Link
-                                            className="font-normal text-lg text-black dark:text-white capitalize "
+                                            className="font-normal text-lg text-primary-main capitalize "
                                             href={t(`${navLink}.href`)}
                                         >
                                             {t(`${navLink}.title`)}
